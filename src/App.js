@@ -1,7 +1,12 @@
-import React from "react";
+import React from 'react'
+import Accord from './components/Accordion/Accord'
 
 const App = () => {
-  return <div>Initial Set up for the App</div>;
-};
+  return (
+    <div>
+      <Accord/>
+    </div>
+  )
+}
 
-export default App;
+export default App
