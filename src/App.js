@@ -1,10 +1,11 @@
 import React from 'react'
-import Accord from './components/Accordion/Accord'
+import Button from './components/ButtonToggle/Button'
+
 
 const App = () => {
   return (
     <div>
-      <Accord/>
+     <Button/>
     </div>
   )
 }
