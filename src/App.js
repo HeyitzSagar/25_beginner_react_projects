@@ -1,13 +1,16 @@
-import React from 'react'
-import Ratings from './components/ratings/Ratings'
-
+import React from "react";
+import Ratingss from "./components/ratings/Ratingss";
+import Slider from "./components/imageSlider/Slider";
+// import Ratings from './components/ratings/Ratings'
 
 const App = () => {
   return (
     <div>
-      <Ratings/>
+      {/* <Ratings/> */}
+      {/* <Ratingss/> */}
+      <Slider url={"https://picsum.photos/v2/list"} limit={"10"} />
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
