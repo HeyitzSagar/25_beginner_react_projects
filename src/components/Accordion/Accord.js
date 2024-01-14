@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import data from "./data";
+
 const Accord = () => {
   const [select, setSelect] = useState(null);
   const [enables, setEnables] = useState(false);

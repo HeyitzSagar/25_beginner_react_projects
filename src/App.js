@@ -1,11 +1,11 @@
 import React from 'react'
-import Button from './components/ButtonToggle/Button'
+import Ratings from './components/ratings/Ratings'
 
 
 const App = () => {
   return (
     <div>
-     <Button/>
+      <Ratings/>
     </div>
   )
 }
