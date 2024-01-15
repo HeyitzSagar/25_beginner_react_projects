@@ -1,0 +1,34 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.product-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+.product {
+  padding: 20px;
+  border: 1px solid;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.product img {
+  width: 200px;
+  height: 100px;
+}
+.button-container {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.button {
+  height: 34px;
+  color: rgb(160, 160, 191);
+  background-color: rgb(24, 19, 12);
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+}
