@@ -59,7 +59,7 @@ const Loadbutton = () => {
       <div className="button-container">
         <button
           disabled={disable}
-          style={{display: disable ? "none" : ""}}
+          style={{ display: disable ? "none" : "" }}
           className="button"
           onClick={() => setCount(count + 1)}
         >
