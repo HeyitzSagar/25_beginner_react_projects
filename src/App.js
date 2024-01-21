@@ -1,5 +1,6 @@
 import React from "react";
-import Circle from "./components/Exam/Circle";
+// import Circle from "./components/Exam/Circle";
+import LikeButton from "./components/LikeButtonCount/LikeButton";
 // import Todolist from "./components/Todolist/Todolist";
 // import Ratingss from "./components/ratings/Ratingss";
 // import Slider from "./components/imageSlider/Slider";
@@ -14,7 +15,8 @@ const App = () => {
       {/* <Slider url={"https://picsum.photos/v2/list"} limit={"10"} /> */}
       {/* <Loadbutton/> */}
       {/* <Todolist/> */}
-      <Circle/>
+      {/* <Circle/> */}
+      <LikeButton/>
     </div>
   );
 };
