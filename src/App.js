@@ -1,6 +1,10 @@
 import React from "react";
 // import Circle from "./components/Exam/Circle";
-import LikeButton from "./components/LikeButtonCount/LikeButton";
+// import LikeButton from "./components/LikeButtonCount/LikeButton";
+// import Qrcode from "./components/QR-code/Index";
+import ThemeChanger from "./components/ThemeChange";
+import Crud from "./components/CrudComponent";
+import TodoList from "./components/CrudComponent/Demo";
 // import Todolist from "./components/Todolist/Todolist";
 // import Ratingss from "./components/ratings/Ratingss";
 // import Slider from "./components/imageSlider/Slider";
@@ -16,7 +20,10 @@ const App = () => {
       {/* <Loadbutton/> */}
       {/* <Todolist/> */}
       {/* <Circle/> */}
-      <LikeButton/>
+      {/* <LikeButton/> */}
+      {/* <Qrcode/> */}
+      {/* <ThemeChanger/> */}
+      <TodoList/>
     </div>
   );
 };

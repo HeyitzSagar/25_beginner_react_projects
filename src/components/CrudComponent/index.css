@@ -1,0 +1,11 @@
+.demo{
+    text-align: center;
+}
+.addtask{
+    background-color: rgb(61, 56, 56);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    margin-left: 10px;
+    padding: 5px;
+}
